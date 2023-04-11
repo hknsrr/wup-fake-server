@@ -1,4 +1,38 @@
 {
+	"work-organization": [
+		{
+			"id": 1,
+			"name": "Marketing Department",
+			"desc": "Marketing Dep",
+			"title": "Marketing Director",
+			"head": "Ali Yılmaz",
+			"parent": "Board"
+		},
+		{
+			"id": 2,
+			"name": "B2C Marketing Unit",
+			"desc": "B2C Marketing",
+			"title": "Marketing Manager",
+			"head": "Pera İnci",
+			"parent": "Marketing Department"
+		},
+		{
+			"id": 3,
+			"name": "Mascat 284 Store Unit",
+			"desc": "Store Unit",
+			"title": "Store Manager",
+			"head": "Mehmet Yılmaz",
+			"parent": "B2C Marketing Unit"
+		},
+		{
+			"id": "",
+			"name": "B2B Marketing Unit",
+			"desc": "B2B Marketing",
+			"title": "Marketing Manager",
+			"head": "Işıl Sağlam",
+			"parent": "Marketing Department"
+		}
+	],
 	"organization-units": [
 		{
 			"id": 2,
