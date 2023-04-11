@@ -419,6 +419,23 @@
 					"saleChannel": "Sale Channel",
 					"activationDate": "15.06.2021"
 				}
+			],
+			"contacts": [
+				{
+					"id": 1,
+					"contactType": "Email",
+					"contactInfo": "mail@mail.com",
+				},
+				{
+					"id": 2,
+					"contactType": "Phone",
+					"contactInfo": "5121223463",
+				},
+				{
+					"id": 3,
+					"contactType": "Social Media",
+					"contactInfo": "#socialMedia",
+				}
 			]
 		}
 	],
