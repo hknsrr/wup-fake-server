@@ -939,5 +939,83 @@
 			},
 			"status": 2
 		}
+	],
+	"events_commission": [
+		{
+			"id": 1,
+			"event_name": "New Sale",
+			"sale_channel": "Direct Sales",
+			"is_commissionable": "Yes",
+			"effective_start_date": "2022/7/21",
+			"end_date": "2022/7/21",
+			"status": "Active",
+			"version": "v2",
+			"last_modified_date": "2022/7/21",
+			"confirmation": 1
+		},
+		{
+			"id": 2,
+			"event_name": "Upsell",
+			"sale_channel": "SSchamp",
+			"is_commissionable": "2022/7/21",
+			"effective_start_date": "2022/7/21",
+			"end_date": "2022/7/21",
+			"status": "Finish",
+			"version": "v1",
+			"last_modified_date": "2022/7/21",
+			"confirmation": 1
+		}
+	],
+	"employee_commission": [
+		{
+			"id": 1,
+			"employee_position": "Sale Champion",
+			"sale_channel": "Direct Sales",
+			"is_commissionable": "Yes",
+			"effective_start_date": "2022/7/21",
+			"end_date": "2022/7/21",
+			"status": "Active",
+			"version": "v2",
+			"last_modified_date": "2022/7/21",
+			"confirmation": 1
+		},
+		{
+			"id": 2,
+			"employee_position": "Store Manager",
+			"sale_channel": "DSF",
+			"is_commissionable": "2022/7/21",
+			"effective_start_date": "2022/7/21",
+			"end_date": "2022/7/21",
+			"status": "Draft",
+			"version": "v3",
+			"last_modified_date": "2022/7/21",
+			"confirmation": 1
+		}
+	],
+	"dealer_commission": [
+		{
+			"id": 1,
+			"dealer_name": "Dealer 1",
+			"sale_channel": "Recharge Oman",
+			"is_commissionable": "Yes",
+			"effective_start_date": "2022/7/21",
+			"end_date": "2022/7/21",
+			"status": "Waiting for Approval",
+			"version": "v2",
+			"last_modified_date": "2022/7/21",
+			"confirmation": 1
+		},
+		{
+			"id": 2,
+			"dealer_name": "OM",
+			"sale_channel": "DSF",
+			"is_commissionable": "2022/7/21",
+			"effective_start_date": "2022/7/21",
+			"end_date": "2022/7/21",
+			"status": "Active",
+			"version": "v1",
+			"last_modified_date": "2022/7/21",
+			"confirmation": 1
+		}
 	]
 }
