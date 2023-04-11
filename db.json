@@ -45,6 +45,29 @@
 			"confirmation": 2
 		}
 	],
+	"commission-scenarios": [
+		{
+			"id": 1,
+			"scenario": "Scenario 1",
+			"scenario_name": "Daily Commission Calculation for Dealer",
+			"start_date": "2022/7/21",
+			"end_date": "2022/7/21",
+			"party_type": "Dealer",
+			"commission_plan_name": "commission plan name",
+			"status": "Finish"
+		},
+		{
+			"id": 2,
+			"scenario": "Scenario 2",
+			"scenario_name": "Daily Commission Calculation for Dealer",
+			"operation": "2022/7/21",
+			"start_date": "2022/7/21",
+			"end_date": "2022/7/21",
+			"party_type": "Dealer",
+			"commission_plan_name": "commission plan name",
+			"status": "Finish"
+		}
+	],
 	"parameters": [
 		{
 			"id": 1,
