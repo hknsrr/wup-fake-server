@@ -429,7 +429,7 @@
 				{
 					"id": 2,
 					"contactType": "Phone",
-					"contactInfo": "55"
+					"contactInfo": "5511245643"
 				},
 				{
 					"id": 3,
@@ -448,7 +448,7 @@
 				{
 					"id": 2,
 					"addressName": "Home Address",
-					"addressDesc": "mail@mail.com",
+					"addressDesc": "merkez cd",
 					"city": "Ankara",
 					"country": "Türkiye"
 				},
