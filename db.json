@@ -415,9 +415,9 @@
 			"documents": [
 				{
 					"id": 1,
-					"name": "Employee Photo",
+					"name": "New_Photo",
 					"type": "Photo",
-					"link": "#",
+					"link": "@aws_123123_photo",
 					"date": "15.06.2021"
 				}
 			],
