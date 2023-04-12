@@ -84,21 +84,20 @@
 			"id": 1,
 			"scenario": "Scenario 1",
 			"scenario_name": "Daily Commission Calculation for Dealer",
-			"start_date": "2022/7/21",
-			"end_date": "2022/7/21",
-			"party_type": "Dealer",
-			"commission_plan_name": "commission plan name",
+			"start_date": "2022/06/12",
+			"end_date": "2022/07/30",
+			"party_type": 1,
+			"commission_plan_name": 1,
 			"status": "Finish"
 		},
 		{
 			"id": 2,
 			"scenario": "Scenario 2",
-			"scenario_name": "Daily Commission Calculation for Dealer",
-			"operation": "2022/7/21",
-			"start_date": "2022/7/21",
-			"end_date": "2022/7/21",
-			"party_type": "Dealer",
-			"commission_plan_name": "commission plan name",
+			"scenario_name": "Daily Commission Calculation for Employee",
+			"start_date": "2022/07/21",
+			"end_date": "2022/08/15",
+			"party_type": 2,
+			"commission_plan_name": 2,
 			"status": "Finish"
 		}
 	],
@@ -964,6 +963,26 @@
 			"version": "v1",
 			"last_modified_date": "2022/7/21",
 			"confirmation": 1
+		}
+	],
+	"comission_plans": [
+		{
+			"id": 1,
+			"name": "Prepaid Line Sale Comission"
+		},
+		{
+			"id": 2,
+			"name": "Postpaid Line Sale Comission"
+		}
+	],
+	"party_types": [
+		{
+			"id": 1,
+			"name": "Employee"
+		},
+		{
+			"id": 2,
+			"name": "Dealer"
 		}
 	],
 	"employee_commission": [
