@@ -415,7 +415,7 @@
 			"documents": [
 				{
 					"id": 1,
-					"name": "Document",
+					"name": "Document Name",
 					"type": "Photo",
 					"link": "/123123_aws123",
 					"date": "15.06.2021"
@@ -1128,4 +1128,3 @@
 		}
 	]
 }
-  
