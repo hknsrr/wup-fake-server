@@ -666,6 +666,16 @@
 					"status": "Active",
 					"distributorId": "1123123"
 				}
+			],
+			"contacts": [
+				{
+					"id": 1,
+					"contactName": "Ali",
+					"contactSurname": "Şahin",
+					"contactRole": "CEO",
+					"contactType": "Mobile Phone",
+					"contactInfo": "543112313"
+				}
 			]
 		},
 		{
@@ -690,6 +700,16 @@
 					"status": "Active",
 					"distributorId": "2234098"
 				}
+			],
+			"contacts": [
+				{
+					"id": 2,
+					"contactName": "Kerem",
+					"contactSurname": "Alem",
+					"contactRole": "Yönetici",
+					"contactType": "Email",
+					"contactInfo": "mail@mail.com"
+				}
 			]
 		},
 		{
@@ -713,6 +733,16 @@
 					"createdBy": "admin",
 					"status": "Passive",
 					"distributorId": "3345567"
+				}
+			],
+			"contacts": [
+				{
+					"id": 3,
+					"contactName": "Sadi",
+					"contactSurname": "Kapı",
+					"contactRole": "Yazılım Geliştirme Uzmanı",
+					"contactType": "Instagram",
+					"contactInfo": "@dev"
 				}
 			]
 		}
