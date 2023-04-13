@@ -1599,8 +1599,8 @@
 	"roles_employee_commission": [
 		{
 			"id": 1,
-			"dealerCode": 2,
-			"customerMsisdn": 431224562,
+			"dealerCode": "2",
+			"customerMsisdn": "431224562",
 			"planName": 1,
 			"payoutAmount": "2022/07/21",
 			"payoutTimes": "2022/07/21",
@@ -1624,8 +1624,8 @@
 		},
 		{
 			"id": 2,
-			"dealerCode": 2,
-			"customerMsisdn": 431224563,
+			"dealerCode": "2",
+			"customerMsisdn": "431224563",
 			"planName": 2,
 			"payoutAmount": "2023/07/21",
 			"payoutTimes": "2023/07/21",
