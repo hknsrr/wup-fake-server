@@ -1,1190 +1,1599 @@
 {
-    "work-organization": [
-        {
-            "id": 1,
-            "name": "Marketing Department",
-            "desc": "Marketing Dep",
-            "title": "Marketing Director",
-            "head": "Ali Yılmaz",
-            "parent": "Board"
-        },
-        {
-            "id": 2,
-            "name": "B2C Marketing Unit",
-            "desc": "B2C Marketing",
-            "title": "Marketing Manager",
-            "head": "Pera İnci",
-            "parent": "Marketing Department"
-        },
-        {
-            "id": 3,
-            "name": "Mascat 284 Store Unit",
-            "desc": "Store Unit",
-            "title": "Store Manager",
-            "head": "Mehmet Yılmaz",
-            "parent": "B2C Marketing Unit"
-        },
-        {
-            "id": 4,
-            "name": "B2B Marketing Unit",
-            "desc": "B2B Marketing",
-            "title": "Marketing Manager",
-            "head": "Işıl Sağlam",
-            "parent": "Marketing Department"
-        }
-    ],
-    "organization-units": [
-        {
-            "id": 2,
-            "json": "{}",
-            "email": "steve@codingthesmartway.com",
-            "name": "IT",
-            "zoom": 0.75,
-            "cdate": "2022/7/21",
-            "udate": "2022/7/21",
-            "modified": "Admin"
-        },
-        {
-            "id": 3,
-            "json": "{}",
-            "email": "ann@codingthesmartway.com",
-            "name": "Sales",
-            "zoom": 0.75,
-            "cdate": "2022/7/21",
-            "udate": "2022/7/21",
-            "modified": "Admin"
-        }
-    ],
-    "commission-simulations": [
-        {
-            "id": 1,
-            "scenario": "Scenario 1",
-            "scenario_name": "Daily Commission Calculation for Dealer",
-            "operation": "2022/7/21",
-            "status": "Finish",
-            "commission_report": "Report1",
-            "simulation_start": "2022/7/21",
-            "simulation_end": "2022/7/21",
-            "confirmation": 1
-        },
-        {
-            "id": 2,
-            "scenario": "Scenario 2",
-            "scenario_name": "Daily Commission Calculation for Dealer",
-            "operation": "2022/7/21",
-            "status": "Finish",
-            "commission_report": "Report2",
-            "simulation_start": "2022/7/21",
-            "simulation_end": "2022/7/21",
-            "confirmation": 2
-        }
-    ],
-    "commission-scenarios": [
-        {
-            "id": 1,
-            "scenario": "Scenario 1",
-            "scenario_name": "Daily Commission Calculation for Dealer",
-            "start_date": "2022/06/12",
-            "end_date": "2022/07/30",
-            "party_type": 1,
-            "commission_plan_name": 1,
-            "status": "Finish"
-        },
-        {
-            "id": 2,
-            "scenario": "Scenario 2",
-            "scenario_name": "Daily Commission Calculation for Employee",
-            "start_date": "2022/07/21",
-            "end_date": "2022/08/15",
-            "party_type": 2,
-            "commission_plan_name": 2,
-            "status": "Finish"
-        }
-    ],
-    "parameters": [
-        {
-            "id": 1,
-            "parameter_data_type": "Parameter 1",
-            "parameter_value": "Parameter Value 1",
-            "last_modified_date": "2022/7/21"
-        },
-        {
-            "id": 2,
-            "parameter_data_type": "Parameter 2",
-            "parameter_value": "Parameter Value 2",
-            "last_modified_date": "2022/7/21"
-        }
-    ],
-    "connection-parameters": [
-        {
-            "id": 1,
-            "connection_parameter_name": "Connection Parameter Name 1",
-            "connection_parameter_value": "Connection Parameter Value 1",
-            "last_modified_date": "2022/7/21"
-        },
-        {
-            "id": 2,
-            "connection_parameter_name": "Connection Parameter Name 2",
-            "connection_parameter_value": "Connection Parameter Value 2",
-            "last_modified_date": "2022/7/21"
-        }
-    ],
-    "roles": [
-        {
-            "id": 1,
-            "module": "Login",
-            "roles_and_permissions": "Login",
-            "system_admin": true,
-            "manager": true,
-            "super_admin": true,
-            "ism_user": false,
-            "fraud_management_user": false,
-            "head_account": false,
-            "area_managers": false
-        },
-        {
-            "id": 2,
-            "module": "Party Management",
-            "roles_and_permissions": "Employees (display)",
-            "system_admin": true,
-            "manager": true,
-            "super_admin": true,
-            "ism_user": false,
-            "fraud_management_user": false,
-            "head_account": false,
-            "area_managers": false
-        },
-        {
-            "id": 3,
-            "module": "Party Management",
-            "roles_and_permissions": "Dealers (display)",
-            "system_admin": true,
-            "manager": true,
-            "super_admin": true,
-            "ism_user": false,
-            "fraud_management_user": false,
-            "head_account": false,
-            "area_managers": false
-        },
-        {
-            "id": 4,
-            "module": "Party Management",
-            "roles_and_permissions": "Partners (display)",
-            "system_admin": true,
-            "manager": true,
-            "super_admin": true,
-            "ism_user": false,
-            "fraud_management_user": false,
-            "head_account": false,
-            "area_managers": false
-        },
-        {
-            "id": 5,
-            "module": "Party Management",
-            "roles_and_permissions": "Organization Units (display)",
-            "system_admin": true,
-            "manager": true,
-            "super_admin": true,
-            "ism_user": false,
-            "fraud_management_user": false,
-            "head_account": false,
-            "area_managers": false
-        }
-    ],
-    "open-tickets": [
-        {
-            "id": 1,
-            "ticket_subjects": "Ticket 1",
-            "ticket_type": "Ticket Type 1",
-            "ticket_text": "test",
-            "status": "1",
-            "start_date": "2022/7/21",
-            "end_date": "2022/7/21",
-            "confirmation": 1
-        },
-        {
-            "id": 2,
-            "ticket_subjects": "Ticket 2",
-            "ticket_type": "Ticket Type 2",
-            "ticket_text": "test",
-            "status": "2",
-            "commission_report": "Report2",
-            "start_date": "2022/7/21",
-            "end_date": "2022/7/21",
-            "confirmation": 2
-        }
-    ],
-    "old-tickets": [
-        {
-            "id": 1,
-            "ticket_subjects": "Ticket 1",
-            "ticket_type": "Ticket Type 1",
-            "ticket_text": "test",
-            "status": "1",
-            "start_date": "2022/7/21",
-            "end_date": "2022/7/21",
-            "confirmation": 1
-        },
-        {
-            "id": 2,
-            "ticket_subjects": "Ticket 2",
-            "ticket_type": "Ticket Type 2",
-            "ticket_text": "test",
-            "status": "2",
-            "commission_report": "Report2",
-            "start_date": "2022/7/21",
-            "end_date": "2022/7/21",
-            "confirmation": 2
-        }
-    ],
-    "system-health": [
-        {
-            "id": 1,
-            "system_name": "System 1",
-            "system_type": "System Type 1",
-            "system_health": "success",
-            "last_modified_date": "2022/7/21",
-            "private_ip": "private ip test",
-            "public_ip": "public ip test",
-            "version": 1,
-            "status": "status 1",
-            "last_logon_date": "last logon date 1",
-            "description": "description 1"
-        },
-        {
-            "id": 2,
-            "system_name": "System 2",
-            "system_type": "System Type 2",
-            "system_health": "error",
-            "last_modified_date": "2022/7/22",
-            "private_ip": "private ip test",
-            "public_ip": "public ip test",
-            "version": 2,
-            "status": "status 2",
-            "last_logon_date": "last logon date 2",
-            "description": "description 2"
-        }
-    ],
-    "system-logs": [
-        {
-            "id": 1,
-            "log_name": "log 1",
-            "log_type": "log Type 1",
-            "log_message": "log message 1",
-            "last_modified_date": "2022/7/21",
-            "description": "description 1",
-            "source": "public ip 1",
-            "event": "source 1",
-            "status": 1
-        },
-        {
-            "id": 2,
-            "log_name": "log 2",
-            "log_type": "log Type 2",
-            "log_message": "log message 2",
-            "last_modified_date": "2022/7/22",
-            "description": "description 2",
-            "source": "public ip 2",
-            "event": "source 2",
-            "status": 2
-        }
-    ],
-    "alerts": [
-        {
-            "id": 1,
-            "severity": "Critical",
-            "system_name": "System 1",
-            "report_date": "2022/7/21",
-            "last_modified_date": "2022/7/21",
-            "threshold": "threshold 1",
-            "action": "action 1",
-            "resource": "resource 1",
-            "instance": "instance 1",
-            "alert_value": 1,
-            "escalation_chain_system": "escalation_chain_system 1",
-            "status": 1
-        },
-        {
-            "id": 2,
-            "severity": "Critical",
-            "system_name": "System 2",
-            "report_date": "2022/7/22",
-            "last_modified_date": "2022/7/22",
-            "threshold": "threshold 2",
-            "action": "action 2",
-            "resource": "resource 2",
-            "instance": "instance 2",
-            "alert_value": 1,
-            "escalation_chain_system": "escalation_chain_system 2",
-            "status": 2
-        }
-    ],
-    "employees": [
-        {
-            "id": 1,
-            "address": "Adresssssss...",
-            "name": "Steve",
-            "surname": "Thes",
-            "title": "Principal2",
-            "department": "IT",
-            "email": "steve@codingthesmartway.com",
-            "tel": "0555 555 55 55",
-            "job_start_date": "2022/7/21",
-            "job_end_date": "2022/7/21",
-            "trainings": [
-                {
-                    "id": 2,
-                    "training_name": "ddsadsa",
-                    "training_desc": "ewwe",
-                    "start_date": "15.06.2021",
-                    "end_date": "17.06.2021",
-                    "training_certification": "CRM Certified"
-                },
-                {
-                    "id": 4,
-                    "training_name": "aaasd",
-                    "training_desc": "3334",
-                    "start_date": "21.07.2022",
-                    "end_date": "-",
-                    "training_certification": ""
-                },
-                {
-                    "id": 6,
-                    "training_name": "-",
-                    "training_desc": "-",
-                    "start_date": "-",
-                    "end_date": "-",
-                    "training_certification": "-"
-                },
-                {
-                    "id": 7,
-                    "training_name": "-",
-                    "training_desc": "-",
-                    "start_date": "-",
-                    "end_date": "-",
-                    "training_certification": "-"
-                }
-            ],
-            "experiences": [
-                {
-                    "id": 1,
-                    "title": "Marketing Director",
-                    "job_desc": "B2C marketing management with 45 staff",
-                    "start_date": "15.06.2021",
-                    "end_date": "17.06.2021",
-                    "company_name": "ABC Company"
-                }
-            ],
-            "educations": [
-                {
-                    "id": 1,
-                    "school_name": "Primary School",
-                    "field": "Science",
-                    "start_date": "15.06.2021",
-                    "end_date": "17.06.2021",
-                    "country": "France"
-                }
-            ],
-            "certifications": [
-                {
-                    "id": 1,
-                    "cert_name": "Google Analytics 4 Exp",
-                    "desc": "B2C marketing certification",
-                    "institue_name": "Google",
-                    "grade": "95/100",
-                    "validity_start_date": "15.06.2021",
-                    "validity_end_date": "17.06.2021"
-                }
-            ],
-            "projects": [
-                {
-                    "id": 1,
-                    "name": "project1",
-                    "desc": "# project description",
-                    "date": "15.06.2021"
-                }
-            ],
-            "notes": [
-                {
-                    "id": 1,
-                    "note_header": "Önemli Bilgi",
-                    "desc": "Şirket büyüme stratejisi ile ilgili detaylı planlama yapılacak.",
-                    "date": "15.06.2021"
-                }
-            ],
-            "documents": [
-                {
-                    "id": 1,
-                    "name": "New_Photo",
-                    "type": "Photo",
-                    "link": "@aws_123123_photo",
-                    "date": "15.06.2021"
-                }
-            ],
-            "targets": [
-                {
-                    "id": 1,
-                    "TargetN": "Sale Target",
-                    "EventN": "Sale",
-                    "ProductN": "Iphone 14",
-                    "Quantity": "12",
-                    "QuantityType": "Number",
-                    "TargetRealization": "9",
-                    "TargetRealPersantange": "%66",
-                    "TargetsDate": "15.06.2021",
-                    "TargeteDate": "15.06.2023"
-                },
-                {
-                    "id": 2,
-                    "TargetN": "Sale Target",
-                    "EventN": "Sale",
-                    "ProductN": "SIM Card",
-                    "Quantity": "1400",
-                    "QuantityType": "Number",
-                    "TargetRealization": "956",
-                    "TargetRealPersantange": "%68",
-                    "TargetsDate": "05.07.2023",
-                    "TargeteDate": "12.10.2023"
-                },
-                {
-                    "id": 3,
-                    "TargetN": "Target3",
-                    "EventN": "Recharge",
-                    "ProductN": "Money",
-                    "Quantity": "5000",
-                    "QuantityType": "Currency(TL)",
-                    "TargetRealization": "3247",
-                    "TargetRealPersantange": "%64",
-                    "TargetsDate": "02.10.2023",
-                    "TargeteDate": "07.12.2023"
-                }
-            ],
-            "sales": [
-                {
-                    "id": 1,
-                    "eventName": "Sale",
-                    "msisdn": "991283456",
-                    "planName": "RO 2 Credit",
-                    "payoutAmount": "5",
-                    "currency": "OMR",
-                    "region": "Muscat",
-                    "wilayat": "Mattrah",
-                    "additionalPayoutAmount": "0",
-                    "payoutTime": "9.06.2022 12:56",
-                    "paymentStatus": "Success",
-                    "payload": "Credit",
-                    "saleChannel": "Direct Sales",
-                    "activationDate": "05.03.2023"
-                },
-                {
-                    "id": 2,
-                    "eventName": "Sale",
-                    "msisdn": "991283457",
-                    "planName": "RO 2 Credit",
-                    "payoutAmount": "1",
-                    "currency": "OMR",
-                    "region": "Muscat",
-                    "wilayat": "Mattrah",
-                    "additionalPayoutAmount": "0",
-                    "payoutTime": "9.12.2023 11:26",
-                    "paymentStatus": "Success",
-                    "payload": "Credit",
-                    "saleChannel": "Door to Door",
-                    "activationDate": "12.04.2023"
-                },
-                {
-                    "id": 3,
-                    "eventName": "Sale",
-                    "msisdn": "991283458",
-                    "planName": "Halo Internet OMR 3",
-                    "payoutAmount": "2",
-                    "currency": "OMR",
-                    "region": "Muscat",
-                    "wilayat": "Al Amirat",
-                    "additionalPayoutAmount": "0",
-                    "payoutTime": "10.06.2022 14:56",
-                    "paymentStatus": "Success",
-                    "payload": "Credit",
-                    "saleChannel": "Distributers",
-                    "activationDate": "21.08.2023"
-                }
-            ],
-            "contacts": [
-                {
-                    "id": 1,
-                    "contactType": "Email",
-                    "contactInfo": "mail@mail.com"
-                },
-                {
-                    "id": 2,
-                    "contactType": "Phone",
-                    "contactInfo": "5511245643"
-                },
-                {
-                    "id": 3,
-                    "contactType": "Social Media",
-                    "contactInfo": "#socialMedia"
-                }
-            ],
-            "addresses": [
-                {
-                    "id": 1,
-                    "addressName": "Ofice Address",
-                    "addressDesc": "Besiktas yol sk",
-                    "city": "Istanbul",
-                    "country": "Türkiye"
-                },
-                {
-                    "id": 2,
-                    "addressName": "Home Address",
-                    "addressDesc": "merkez cd",
-                    "city": "Ankara",
-                    "country": "Türkiye"
-                },
-                {
-                    "id": 3,
-                    "addressName": "Work Address",
-                    "addressDesc": "Kadikoy abc sk",
-                    "city": "Istanbul",
-                    "country": "Türkiye"
-                }
-            ]
-        }
-    ],
-    "partners": [
-        {
-            "id": "1",
-            "no": "#",
-            "partnerName": "partner Name",
-            "partner": "#",
-            "projectN": "#",
-            "eventNa": "#",
-            "contactPe": "#",
-            "phone": "#",
-            "email": "#",
-            "contractSta": "#",
-            "contractEn": "#",
-            "muncipilatyEx": "#",
-            "registere": "#",
-            "latitud": "#",
-            "longitu": "#",
-            "isPreferP": "#",
-            "area": "#",
-            "dS": "#",
-            "createrU": "#",
-            "createSta": "#",
-            "distribut": "#",
-            "distrubutorNa": "#",
-            "areaType": "#",
-            "segment": "#",
-            "regio": "#",
-            "wil": "#",
-            "locat": "#",
-            "business": "#",
-            "aM": "#",
-            "areaManage": "#",
-            "dSM": "#",
-            "dSMName": "#",
-            "areaN": "#",
-            "inventor": "#",
-            "tags": [
-                "#tag1",
-                "#tag2"
-            ],
-            "addresses": [
-                {
-                    "id": 1,
-                    "name": "Home",
-                    "desc": "Erenköy mah",
-                    "date": "15.06.2021",
-                    "city": "İstanbul",
-                    "country": "Türkiye"
-                }
-            ],
-            "contacts": [
-                {
-                    "id": 1,
-                    "name": "#",
-                    "role": "#",
-                    "date": "15.06.2021",
-                    "city": "#",
-                    "country": "#",
-                    "phone": "05555555555"
-                }
-            ],
-            "invoices": [
-                {
-                    "id": 1,
-                    "invoice_document": "#",
-                    "invoice_date": "15.06.2021",
-                    "payment_due_date": "#",
-                    "currency": "#",
-                    "amount": "#",
-                    "received": "05555555555",
-                    "remain": "05555555555"
-                }
-            ],
-            "events": [
-                {
-                    "id": 1,
-                    "name": "#",
-                    "type": "#",
-                    "owner": "#",
-                    "date": "15.06.2021",
-                    "contacts": "#",
-                    "summary": "#",
-                    "todo_lists": "#",
-                    "releated_docs": "#"
-                }
-            ],
-            "projects": [
-                {
-                    "id": 1,
-                    "name": "#",
-                    "type": "#",
-                    "start_date": "15.06.2021",
-                    "total_effort": "#",
-                    "total_budget": "#",
-                    "spe": "#",
-                    "remaining": "#",
-                    "currency": "#"
-                }
-            ],
-            "documents": [
-                {
-                    "id": 1,
-                    "name": "#",
-                    "desc": "#",
-                    "date": "15.06.2021",
-                    "city": "#",
-                    "country": "#"
-                }
-            ],
-            "notes": [
-                {
-                    "id": 1,
-                    "note_header": "Önemli Bilgi",
-                    "text": "Şirket büyüme stratejisi ile ilgili detaylı planlama yapılacak.",
-                    "date": "15.06.2021"
-                }
-            ]
-        }
-    ],
-    "sale-channel-matrix": [
-        {
-            "id": 1,
-            "sale_channel": "Sale Channel 1",
-            "sales_channel_group": "Sales Channel Group 1",
-            "sub_channel": "Sub Channel 1",
-            "user_type": "User Type 1",
-            "role": "Role 1",
-            "status": 1
-        },
-        {
-            "id": 2,
-            "sale_channel": "Sale Channel 2",
-            "sales_channel_group": "Sales Channel Group 2",
-            "sub_channel": "Sub Channel 2",
-            "user_type": "User Type 2",
-            "role": "Role 2",
-            "status": 2
-        },
-        {
-            "id": 3,
-            "sale_channel": "Sale Channel 3",
-            "sales_channel_group": "Sales Channel Group 3",
-            "sub_channel": "Sub Channel 3",
-            "user_type": "User Type 3",
-            "role": "Role 3",
-            "status": 3
-        }
-    ],
-    "dealers": [
-        {
-            "id": 1,
-            "no": 1,
-            "dealerName": "Dealer 1",
-            "dealerCode": "0546D1",
-            "dealerType": "OWN",
-            "dealerDetail": [
-                {
-                    "id": 1,
-                    "no": 1,
-                    "contactStartDate": "15.06.2021",
-                    "contactEndDate": "17.06.2022",
-                    "muncipilatyExpiryDate": "17.06.2022",
-                    "registeredDate": "14.06.2021",
-                    "isPreferPartner": "Yes",
-                    "areaId": "452",
-                    "dsId": "1111",
-                    "createUserId": "6794",
-                    "createdBy": "admin",
-                    "status": "Active",
-                    "distributorId": "1123123"
-                }
-            ],
-            "contacts": [
-                {
-                    "id": 1,
-                    "contactName": "Ali",
-                    "contactSurname": "Şahin",
-                    "contactRole": "CEO",
-                    "contactType": "Mobile Phone",
-                    "contactInfo": "543112313"
-                }
-            ]
-        },
-        {
-            "id": 2,
-            "no": 2,
-            "dealerName": "Dealer 2",
-            "dealerCode": "0546D2",
-            "dealerType": "OWN",
-            "dealerDetail": [
-                {
-                    "id": 2,
-                    "no": 2,
-                    "contactStartDate": "15.06.2019",
-                    "contactEndDate": "11.03.2022",
-                    "muncipilatyExpiryDate": "17.06.2022",
-                    "registeredDate": "14.06.2019",
-                    "isPreferPartner": "Yes",
-                    "areaId": "453",
-                    "dsId": "1112",
-                    "createUserId": "8043",
-                    "createdBy": "admin",
-                    "status": "Active",
-                    "distributorId": "2234098"
-                }
-            ],
-            "contacts": [
-                {
-                    "id": 2,
-                    "contactName": "Kerem",
-                    "contactSurname": "Alem",
-                    "contactRole": "Yönetici",
-                    "contactType": "Email",
-                    "contactInfo": "mail@mail.com"
-                }
-            ]
-        },
-        {
-            "id": 3,
-            "no": 3,
-            "dealerName": "Dealer 3",
-            "dealerCode": "0546D3",
-            "dealerType": "OWN",
-            "dealerDetail": [
-                {
-                    "id": 3,
-                    "no": 3,
-                    "contactStartDate": "01.01.2021",
-                    "contactEndDate": "01.06.2022",
-                    "muncipilatyExpiryDate": "07.06.2022",
-                    "registeredDate": "14.12.2020",
-                    "isPreferPartner": "No",
-                    "areaId": "454",
-                    "dsId": "1113",
-                    "createUserId": "6411",
-                    "createdBy": "admin",
-                    "status": "Passive",
-                    "distributorId": "3345567"
-                }
-            ],
-            "contacts": [
-                {
-                    "id": 3,
-                    "contactName": "Sadi",
-                    "contactSurname": "Kapı",
-                    "contactRole": "Yazılım Geliştirme Uzmanı",
-                    "contactType": "Instagram",
-                    "contactInfo": "@dev"
-                }
-            ]
-        }
-    ],
-    "events": [
-        {
-            "id": 1,
-            "name": "Event 1"
-        },
-        {
-            "id": 2,
-            "name": "Event 2"
-        },
-        {
-            "id": 3,
-            "name": "Event 3"
-        }
-    ],
-    "operations": [
-        {
-            "id": 1,
-            "name": "Operation 1"
-        },
-        {
-            "id": 2,
-            "name": "Operation 2"
-        },
-        {
-            "id": 3,
-            "name": "Operation 3"
-        }
-    ],
-    "products": [
-        {
-            "id": 1,
-            "name": "product 1"
-        },
-        {
-            "id": 2,
-            "name": "product 2"
-        },
-        {
-            "id": 3,
-            "name": "product 3"
-        }
-    ],
-    "organization-unit": [
-        {
-            "id": 1,
-            "name": "organization unit 1"
-        },
-        {
-            "id": 2,
-            "name": "organization unit 2"
-        },
-        {
-            "id": 3,
-            "name": "organization unit 3"
-        }
-    ],
-    "quantity-types": [
-        {
-            "id": 1,
-            "name": "Number"
-        },
-        {
-            "id": 2,
-            "name": "currency (TL)"
-        },
-        {
-            "id": 3,
-            "name": "quantity Type 3"
-        }
-    ],
-    "employee-targets": [
-        {
-            "id": 1,
-            "employee": {
-                "name": "Lorem2",
-                "id": 1
-            },
-            "event": {
-                "name": "Event 1",
-                "id": 1
-            },
-            "product": {
-                "name": "product 1",
-                "id": 1
-            },
-            "quantity": 5,
-            "quantity_type": {
-                "name": "Number",
-                "id": 1
-            },
-            "calculation_period": {
-                "name": "Monthly",
-                "id": 1
-            },
-            "calculation_start_date": {
-                "name": "First day of the month",
-                "id": 1
-            },
-            "calculation_end_date": {
-                "name": "Last day of the quarter",
-                "id": 2
-            },
-            "status": 2
-        },
-        {
-            "id": 3,
-            "employee": {
-                "name": "Ann",
-                "id": 3
-            },
-            "event": {
-                "name": "Event 2",
-                "id": 2
-            },
-            "product": {
-                "name": "product 3",
-                "id": 3
-            },
-            "quantity": -11,
-            "quantity_type": {
-                "name": "quantity Type 3",
-                "id": 3
-            },
-            "calculation_period": {
-                "name": "Yearly",
-                "id": 3
-            },
-            "calculation_start_date": {
-                "name": "First day of the year",
-                "id": 3
-            },
-            "calculation_end_date": {
-                "name": "Last day of the year",
-                "id": 3
-            },
-            "status": 2
-        }
-    ],
-    "dealer-targets": [
-        {
-            "id": 1,
-            "dealer": {
-                "name": "Lorem2",
-                "id": 1
-            },
-            "event": {
-                "name": "Event 1",
-                "id": 1
-            },
-            "product": {
-                "name": "product 1",
-                "id": 1
-            },
-            "quantity": 5,
-            "quantity_type": {
-                "name": "Number",
-                "id": 1
-            },
-            "calculation_period": {
-                "name": "Monthly",
-                "id": 1
-            },
-            "calculation_start_date": {
-                "name": "First day of the month",
-                "id": 1
-            },
-            "calculation_end_date": {
-                "name": "Last day of the quarter",
-                "id": 2
-            },
-            "status": 2
-        },
-        {
-            "id": 3,
-            "dealer": {
-                "name": "Ann",
-                "id": 3
-            },
-            "event": {
-                "name": "Event 2",
-                "id": 2
-            },
-            "product": {
-                "name": "product 3",
-                "id": 3
-            },
-            "quantity": -11,
-            "quantity_type": {
-                "name": "quantity Type 3",
-                "id": 3
-            },
-            "calculation_period": {
-                "name": "Yearly",
-                "id": 3
-            },
-            "calculation_start_date": {
-                "name": "First day of the year",
-                "id": 3
-            },
-            "calculation_end_date": {
-                "name": "Last day of the year",
-                "id": 3
-            },
-            "status": 2
-        }
-    ],
-    "organization-unit-targets": [
-        {
-            "id": 1,
-            "organization_unit": {
-                "name": "Lorem2",
-                "id": 1
-            },
-            "operation": {
-                "name": "operation 1",
-                "id": 1
-            },
-            "event": {
-                "name": "event 1",
-                "id": 1
-            },
-            "product": {
-                "name": "product 1",
-                "id": 1
-            },
-            "quantity": 5,
-            "quantity_type": {
-                "name": "Number",
-                "id": 1
-            },
-            "calculation_period": {
-                "name": "Monthly",
-                "id": 1
-            },
-            "calculation_start_date": {
-                "name": "First day of the month",
-                "id": 1
-            },
-            "calculation_end_date": {
-                "name": "Last day of the quarter",
-                "id": 2
-            },
-            "status": 2
-        },
-        {
-            "id": 3,
-            "organization_unit": {
-                "name": "Ann",
-                "id": 3
-            },
-            "operation": {
-                "name": "operation 2",
-                "id": 2
-            },
-            "event": {
-                "name": "event 1",
-                "id": 1
-            },
-            "product": {
-                "name": "product 3",
-                "id": 3
-            },
-            "quantity": -11,
-            "quantity_type": {
-                "name": "quantity Type 3",
-                "id": 3
-            },
-            "calculation_period": {
-                "name": "Yearly",
-                "id": 3
-            },
-            "calculation_start_date": {
-                "name": "First day of the year",
-                "id": 3
-            },
-            "calculation_end_date": {
-                "name": "Last day of the year",
-                "id": 3
-            },
-            "status": 2
-        }
-    ],
-    "events_commission": [
-        {
-            "id": 1,
-            "event_name": 1,
-            "sale_channel": 1,
-            "is_commissionable": 2,
-            "effective_start_date": "2022/07/21",
-            "end_date": "2022/07/21",
-            "status": 3,
-            "version": "v2",
-            "last_modified_date": "2022/07/21",
-            "confirmation": 1
-        },
-        {
-            "id": 2,
-            "event_name": 2,
-            "sale_channel": 2,
-            "is_commissionable": 1,
-            "effective_start_date": "2022/7/21",
-            "end_date": "2022/7/21",
-            "status": 4,
-            "version": "v1",
-            "last_modified_date": "2022/7/21",
-            "confirmation": 1
-        }
-    ],
-    "comission_plans": [
-        {
-            "id": 1,
-            "name": "Prepaid Line Sale Comission"
-        },
-        {
-            "id": 2,
-            "name": "Postpaid Line Sale Comission"
-        }
-    ],
-    "party_types": [
-        {
-            "id": 1,
-            "name": "Employee"
-        },
-        {
-            "id": 2,
-            "name": "Dealer"
-        }
-    ],
-    "employee_commission": [
-        {
-            "id": 1,
-            "employee_position": 3,
-            "sale_channel": 2,
-            "is_commissionable": 1,
-            "effective_start_date": "2022/07/21",
-            "end_date": "2022/07/21",
-            "status": 1,
-            "version": "v2",
-            "last_modified_date": "2022/07/21",
-            "confirmation": 1
-        },
-        {
-            "id": 2,
-            "employee_position": 3,
-            "sale_channel": 3,
-            "is_commissionable": "2022/07/21",
-            "effective_start_date": "2022/07/21",
-            "end_date": "2022/07/21",
-            "status": 2,
-            "version": "v3",
-            "last_modified_date": "2022/07/21",
-            "confirmation": 1
-        }
-    ],
-    "dealer_commission": [
-        {
-            "id": 1,
-            "dealer_name": 1,
-            "sale_channel": 2,
-            "is_commissionable": 1,
-            "effective_start_date": "2022/07/21",
-            "end_date": "2022/07/21",
-            "status": 1,
-            "region": 1,
-            "wilayat": 2,
-            "version": "v2",
-            "last_modified_date": "2022/07/21",
-            "confirmation": 1
-        },
-        {
-            "id": 2,
-            "dealer_name": 2,
-            "sale_channel": 3,
-            "is_commissionable": "2022/07/21",
-            "effective_start_date": "2022/07/21",
-            "end_date": "2022/07/21",
-            "status": 2,
-            "region": 1,
-            "wilayat": 2,
-            "version": "v1",
-            "last_modified_date": "2022/07/21",
-            "confirmation": 1
-        }
-    ]
+	"work-organization": [
+		{
+			"id": 1,
+			"name": "Marketing Department",
+			"desc": "Marketing Dep",
+			"title": "Marketing Director",
+			"head": "Ali Yılmaz",
+			"parent": "Board"
+		},
+		{
+			"id": 2,
+			"name": "B2C Marketing Unit",
+			"desc": "B2C Marketing",
+			"title": "Marketing Manager",
+			"head": "Pera İnci",
+			"parent": "Marketing Department"
+		},
+		{
+			"id": 3,
+			"name": "Mascat 284 Store Unit",
+			"desc": "Store Unit",
+			"title": "Store Manager",
+			"head": "Mehmet Yılmaz",
+			"parent": "B2C Marketing Unit"
+		},
+		{
+			"id": 4,
+			"name": "B2B Marketing Unit",
+			"desc": "B2B Marketing",
+			"title": "Marketing Manager",
+			"head": "Işıl Sağlam",
+			"parent": "Marketing Department"
+		}
+	],
+	"organization-units": [
+		{
+			"id": 2,
+			"json": "{}",
+			"email": "steve@codingthesmartway.com",
+			"name": "IT",
+			"zoom": 0.75,
+			"cdate": "2022/7/21",
+			"udate": "2022/7/21",
+			"modified": "Admin"
+		},
+		{
+			"id": 3,
+			"json": "{}",
+			"email": "ann@codingthesmartway.com",
+			"name": "Sales",
+			"zoom": 0.75,
+			"cdate": "2022/7/21",
+			"udate": "2022/7/21",
+			"modified": "Admin"
+		}
+	],
+	"commission-simulations": [
+		{
+			"id": 1,
+			"scenario": "Scenario 1",
+			"scenario_name": "Daily Commission Calculation for Dealer",
+			"operation": "2022/7/21",
+			"status": "Finish",
+			"commission_report": "Report1",
+			"simulation_start": "2022/7/21",
+			"simulation_end": "2022/7/21",
+			"confirmation": 1
+		},
+		{
+			"id": 2,
+			"scenario": "Scenario 2",
+			"scenario_name": "Daily Commission Calculation for Dealer",
+			"operation": "2022/7/21",
+			"status": "Finish",
+			"commission_report": "Report2",
+			"simulation_start": "2022/7/21",
+			"simulation_end": "2022/7/21",
+			"confirmation": 2
+		}
+	],
+	"commission-scenarios": [
+		{
+			"id": 1,
+			"scenario": "Scenario 1",
+			"scenario_name": "Daily Commission Calculation for Dealer",
+			"start_date": "2022/06/12",
+			"end_date": "2022/07/30",
+			"party_type": 1,
+			"commission_plan_name": 1,
+			"status": 1
+		},
+		{
+			"id": 2,
+			"scenario": "Scenario 2",
+			"scenario_name": "Daily Commission Calculation for Employee",
+			"start_date": "2022/07/21",
+			"end_date": "2022/08/15",
+			"party_type": 2,
+			"commission_plan_name": 2,
+			"status": 2
+		}
+	],
+	"parameters": [
+		{
+			"id": 1,
+			"parameter_data_type": "Parameter 1",
+			"parameter_value": "Parameter Value 1",
+			"last_modified_date": "2022/7/21"
+		},
+		{
+			"id": 2,
+			"parameter_data_type": "Parameter 2",
+			"parameter_value": "Parameter Value 2",
+			"last_modified_date": "2022/7/21"
+		}
+	],
+	"connection-parameters": [
+		{
+			"id": 1,
+			"connection_parameter_name": "Connection Parameter Name 1",
+			"connection_parameter_value": "Connection Parameter Value 1",
+			"last_modified_date": "2022/7/21"
+		},
+		{
+			"id": 2,
+			"connection_parameter_name": "Connection Parameter Name 2",
+			"connection_parameter_value": "Connection Parameter Value 2",
+			"last_modified_date": "2022/7/21"
+		}
+	],
+	"roles": [
+		{
+			"id": 1,
+			"module": "Login",
+			"roles_and_permissions": "Login",
+			"system_admin": true,
+			"manager": true,
+			"super_admin": true,
+			"ism_user": false,
+			"fraud_management_user": false,
+			"head_account": false,
+			"area_managers": false
+		},
+		{
+			"id": 2,
+			"module": "Party Management",
+			"roles_and_permissions": "Employees (display)",
+			"system_admin": true,
+			"manager": true,
+			"super_admin": true,
+			"ism_user": false,
+			"fraud_management_user": false,
+			"head_account": false,
+			"area_managers": false
+		},
+		{
+			"id": 3,
+			"module": "Party Management",
+			"roles_and_permissions": "Dealers (display)",
+			"system_admin": true,
+			"manager": true,
+			"super_admin": true,
+			"ism_user": false,
+			"fraud_management_user": false,
+			"head_account": false,
+			"area_managers": false
+		},
+		{
+			"id": 4,
+			"module": "Party Management",
+			"roles_and_permissions": "Partners (display)",
+			"system_admin": true,
+			"manager": true,
+			"super_admin": true,
+			"ism_user": false,
+			"fraud_management_user": false,
+			"head_account": false,
+			"area_managers": false
+		},
+		{
+			"id": 5,
+			"module": "Party Management",
+			"roles_and_permissions": "Organization Units (display)",
+			"system_admin": true,
+			"manager": true,
+			"super_admin": true,
+			"ism_user": false,
+			"fraud_management_user": false,
+			"head_account": false,
+			"area_managers": false
+		}
+	],
+	"open-tickets": [
+		{
+			"id": 1,
+			"ticket_subjects": "Ticket 1",
+			"ticket_type": "Ticket Type 1",
+			"ticket_text": "test",
+			"status": "1",
+			"start_date": "2022/7/21",
+			"end_date": "2022/7/21",
+			"confirmation": 1
+		},
+		{
+			"id": 2,
+			"ticket_subjects": "Ticket 2",
+			"ticket_type": "Ticket Type 2",
+			"ticket_text": "test",
+			"status": "2",
+			"commission_report": "Report2",
+			"start_date": "2022/7/21",
+			"end_date": "2022/7/21",
+			"confirmation": 2
+		}
+	],
+	"old-tickets": [
+		{
+			"id": 1,
+			"ticket_subjects": "Ticket 1",
+			"ticket_type": "Ticket Type 1",
+			"ticket_text": "test",
+			"status": "1",
+			"start_date": "2022/7/21",
+			"end_date": "2022/7/21",
+			"confirmation": 1
+		},
+		{
+			"id": 2,
+			"ticket_subjects": "Ticket 2",
+			"ticket_type": "Ticket Type 2",
+			"ticket_text": "test",
+			"status": "2",
+			"commission_report": "Report2",
+			"start_date": "2022/7/21",
+			"end_date": "2022/7/21",
+			"confirmation": 2
+		}
+	],
+	"system-health": [
+		{
+			"id": 1,
+			"system_name": "System 1",
+			"system_type": "System Type 1",
+			"system_health": "success",
+			"last_modified_date": "2022/7/21",
+			"private_ip": "private ip test",
+			"public_ip": "public ip test",
+			"version": 1,
+			"status": "status 1",
+			"last_logon_date": "last logon date 1",
+			"description": "description 1"
+		},
+		{
+			"id": 2,
+			"system_name": "System 2",
+			"system_type": "System Type 2",
+			"system_health": "error",
+			"last_modified_date": "2022/7/22",
+			"private_ip": "private ip test",
+			"public_ip": "public ip test",
+			"version": 2,
+			"status": "status 2",
+			"last_logon_date": "last logon date 2",
+			"description": "description 2"
+		}
+	],
+	"system-logs": [
+		{
+			"id": 1,
+			"log_name": "log 1",
+			"log_type": "log Type 1",
+			"log_message": "log message 1",
+			"last_modified_date": "2022/7/21",
+			"description": "description 1",
+			"source": "public ip 1",
+			"event": "source 1",
+			"status": 1
+		},
+		{
+			"id": 2,
+			"log_name": "log 2",
+			"log_type": "log Type 2",
+			"log_message": "log message 2",
+			"last_modified_date": "2022/7/22",
+			"description": "description 2",
+			"source": "public ip 2",
+			"event": "source 2",
+			"status": 2
+		}
+	],
+	"alerts": [
+		{
+			"id": 1,
+			"severity": "Critical",
+			"system_name": "System 1",
+			"report_date": "2022/7/21",
+			"last_modified_date": "2022/7/21",
+			"threshold": "threshold 1",
+			"action": "action 1",
+			"resource": "resource 1",
+			"instance": "instance 1",
+			"alert_value": 1,
+			"escalation_chain_system": "escalation_chain_system 1",
+			"status": 1
+		},
+		{
+			"id": 2,
+			"severity": "Critical",
+			"system_name": "System 2",
+			"report_date": "2022/7/22",
+			"last_modified_date": "2022/7/22",
+			"threshold": "threshold 2",
+			"action": "action 2",
+			"resource": "resource 2",
+			"instance": "instance 2",
+			"alert_value": 1,
+			"escalation_chain_system": "escalation_chain_system 2",
+			"status": 2
+		}
+	],
+	"employees": [
+		{
+			"id": 1,
+			"address": "Adresssssss...",
+			"name": "Steve",
+			"surname": "Thes",
+			"title": "Principal2",
+			"department": "IT",
+			"email": "steve@codingthesmartway.com",
+			"tel": "0555 555 55 55",
+			"job_start_date": "2022/7/21",
+			"job_end_date": "2022/7/21",
+			"trainings": [
+				{
+					"id": 2,
+					"training_name": "ddsadsa",
+					"training_desc": "ewwe",
+					"start_date": "15.06.2021",
+					"end_date": "17.06.2021",
+					"training_certification": "CRM Certified"
+				},
+				{
+					"id": 4,
+					"training_name": "aaasd",
+					"training_desc": "3334",
+					"start_date": "21.07.2022",
+					"end_date": "-",
+					"training_certification": ""
+				},
+				{
+					"id": 6,
+					"training_name": "-",
+					"training_desc": "-",
+					"start_date": "-",
+					"end_date": "-",
+					"training_certification": "-"
+				},
+				{
+					"id": 7,
+					"training_name": "-",
+					"training_desc": "-",
+					"start_date": "-",
+					"end_date": "-",
+					"training_certification": "-"
+				}
+			],
+			"experiences": [
+				{
+					"id": 1,
+					"title": "Marketing Director",
+					"job_desc": "B2C marketing management with 45 staff",
+					"start_date": "15.06.2021",
+					"end_date": "17.06.2021",
+					"company_name": "ABC Company"
+				}
+			],
+			"educations": [
+				{
+					"id": 1,
+					"school_name": "Primary School",
+					"field": "Science",
+					"start_date": "15.06.2021",
+					"end_date": "17.06.2021",
+					"country": "France"
+				}
+			],
+			"certifications": [
+				{
+					"id": 1,
+					"cert_name": "Google Analytics 4 Exp",
+					"desc": "B2C marketing certification",
+					"institue_name": "Google",
+					"grade": "95/100",
+					"validity_start_date": "15.06.2021",
+					"validity_end_date": "17.06.2021"
+				}
+			],
+			"projects": [
+				{
+					"id": 1,
+					"name": "project1",
+					"desc": "# project description",
+					"date": "15.06.2021"
+				}
+			],
+			"notes": [
+				{
+					"id": 1,
+					"note_header": "Önemli Bilgi",
+					"desc": "Şirket büyüme stratejisi ile ilgili detaylı planlama yapılacak.",
+					"date": "15.06.2021"
+				}
+			],
+			"documents": [
+				{
+					"id": 1,
+					"name": "New_Photo",
+					"type": "Photo",
+					"link": "@aws_123123_photo",
+					"date": "15.06.2021"
+				}
+			],
+			"targets": [
+				{
+					"id": 1,
+					"TargetN": "Sale Target",
+					"EventN": "Sale",
+					"ProductN": "Iphone 14",
+					"Quantity": "12",
+					"QuantityType": "Number",
+					"TargetRealization": "9",
+					"TargetRealPersantange": "%66",
+					"TargetsDate": "15.06.2021",
+					"TargeteDate": "15.06.2023"
+				},
+				{
+					"id": 2,
+					"TargetN": "Sale Target",
+					"EventN": "Sale",
+					"ProductN": "SIM Card",
+					"Quantity": "1400",
+					"QuantityType": "Number",
+					"TargetRealization": "956",
+					"TargetRealPersantange": "%68",
+					"TargetsDate": "05.07.2023",
+					"TargeteDate": "12.10.2023"
+				},
+				{
+					"id": 3,
+					"TargetN": "Target3",
+					"EventN": "Recharge",
+					"ProductN": "Money",
+					"Quantity": "5000",
+					"QuantityType": "Currency(TL)",
+					"TargetRealization": "3247",
+					"TargetRealPersantange": "%64",
+					"TargetsDate": "02.10.2023",
+					"TargeteDate": "07.12.2023"
+				}
+			],
+			"sales": [
+				{
+					"id": 1,
+					"eventName": "Sale",
+					"msisdn": "991283456",
+					"planName": "RO 2 Credit",
+					"payoutAmount": "5",
+					"currency": "OMR",
+					"region": "Muscat",
+					"wilayat": "Mattrah",
+					"additionalPayoutAmount": "0",
+					"payoutTime": "9.06.2022 12:56",
+					"paymentStatus": "Success",
+					"payload": "Credit",
+					"saleChannel": "Direct Sales",
+					"activationDate": "05.03.2023"
+				},
+				{
+					"id": 2,
+					"eventName": "Sale",
+					"msisdn": "991283457",
+					"planName": "RO 2 Credit",
+					"payoutAmount": "1",
+					"currency": "OMR",
+					"region": "Muscat",
+					"wilayat": "Mattrah",
+					"additionalPayoutAmount": "0",
+					"payoutTime": "9.12.2023 11:26",
+					"paymentStatus": "Success",
+					"payload": "Credit",
+					"saleChannel": "Door to Door",
+					"activationDate": "12.04.2023"
+				},
+				{
+					"id": 3,
+					"eventName": "Sale",
+					"msisdn": "991283458",
+					"planName": "Halo Internet OMR 3",
+					"payoutAmount": "2",
+					"currency": "OMR",
+					"region": "Muscat",
+					"wilayat": "Al Amirat",
+					"additionalPayoutAmount": "0",
+					"payoutTime": "10.06.2022 14:56",
+					"paymentStatus": "Success",
+					"payload": "Credit",
+					"saleChannel": "Distributers",
+					"activationDate": "21.08.2023"
+				}
+			],
+			"contacts": [
+				{
+					"id": 1,
+					"contactType": "Email",
+					"contactInfo": "mail@mail.com"
+				},
+				{
+					"id": 2,
+					"contactType": "Phone",
+					"contactInfo": "5511245643"
+				},
+				{
+					"id": 3,
+					"contactType": "Social Media",
+					"contactInfo": "#socialMedia"
+				}
+			],
+			"addresses": [
+				{
+					"id": 1,
+					"addressName": "Ofice Address",
+					"addressDesc": "Besiktas yol sk",
+					"city": "Istanbul",
+					"country": "Türkiye"
+				},
+				{
+					"id": 2,
+					"addressName": "Home Address",
+					"addressDesc": "merkez cd",
+					"city": "Ankara",
+					"country": "Türkiye"
+				},
+				{
+					"id": 3,
+					"addressName": "Work Address",
+					"addressDesc": "Kadikoy abc sk",
+					"city": "Istanbul",
+					"country": "Türkiye"
+				}
+			]
+		}
+	],
+	"partners": [
+		{
+			"id": "1",
+			"no": "#",
+			"partnerName": "partner Name",
+			"partner": "#",
+			"projectN": "#",
+			"eventNa": "#",
+			"contactPe": "#",
+			"phone": "#",
+			"email": "#",
+			"contractSta": "#",
+			"contractEn": "#",
+			"muncipilatyEx": "#",
+			"registere": "#",
+			"latitud": "#",
+			"longitu": "#",
+			"isPreferP": "#",
+			"area": "#",
+			"dS": "#",
+			"createrU": "#",
+			"createSta": "#",
+			"distribut": "#",
+			"distrubutorNa": "#",
+			"areaType": "#",
+			"segment": "#",
+			"regio": "#",
+			"wil": "#",
+			"locat": "#",
+			"business": "#",
+			"aM": "#",
+			"areaManage": "#",
+			"dSM": "#",
+			"dSMName": "#",
+			"areaN": "#",
+			"inventor": "#",
+			"tags": [
+				"#tag1",
+				"#tag2"
+			],
+			"addresses": [
+				{
+					"id": 1,
+					"name": "Home",
+					"desc": "Erenköy mah",
+					"date": "15.06.2021",
+					"city": "İstanbul",
+					"country": "Türkiye"
+				}
+			],
+			"contacts": [
+				{
+					"id": 1,
+					"name": "#",
+					"role": "#",
+					"date": "15.06.2021",
+					"city": "#",
+					"country": "#",
+					"phone": "05555555555"
+				}
+			],
+			"invoices": [
+				{
+					"id": 1,
+					"invoice_document": "#",
+					"invoice_date": "15.06.2021",
+					"payment_due_date": "#",
+					"currency": "#",
+					"amount": "#",
+					"received": "05555555555",
+					"remain": "05555555555"
+				}
+			],
+			"events": [
+				{
+					"id": 1,
+					"name": "#",
+					"type": "#",
+					"owner": "#",
+					"date": "15.06.2021",
+					"contacts": "#",
+					"summary": "#",
+					"todo_lists": "#",
+					"releated_docs": "#"
+				}
+			],
+			"projects": [
+				{
+					"id": 1,
+					"name": "#",
+					"type": "#",
+					"start_date": "15.06.2021",
+					"total_effort": "#",
+					"total_budget": "#",
+					"spe": "#",
+					"remaining": "#",
+					"currency": "#"
+				}
+			],
+			"documents": [
+				{
+					"id": 1,
+					"name": "#",
+					"desc": "#",
+					"date": "15.06.2021",
+					"city": "#",
+					"country": "#"
+				}
+			],
+			"notes": [
+				{
+					"id": 1,
+					"note_header": "Önemli Bilgi",
+					"text": "Şirket büyüme stratejisi ile ilgili detaylı planlama yapılacak.",
+					"date": "15.06.2021"
+				}
+			]
+		}
+	],
+	"sale-channel-matrix": [
+		{
+			"id": 1,
+			"sale_channel": "Sale Channel 1",
+			"sales_channel_group": "Sales Channel Group 1",
+			"sub_channel": "Sub Channel 1",
+			"user_type": "User Type 1",
+			"role": "Role 1",
+			"status": 1
+		},
+		{
+			"id": 2,
+			"sale_channel": "Sale Channel 2",
+			"sales_channel_group": "Sales Channel Group 2",
+			"sub_channel": "Sub Channel 2",
+			"user_type": "User Type 2",
+			"role": "Role 2",
+			"status": 2
+		},
+		{
+			"id": 3,
+			"sale_channel": "Sale Channel 3",
+			"sales_channel_group": "Sales Channel Group 3",
+			"sub_channel": "Sub Channel 3",
+			"user_type": "User Type 3",
+			"role": "Role 3",
+			"status": 3
+		}
+	],
+	"dealers": [
+		{
+			"id": 1,
+			"no": 1,
+			"dealerName": "Dealer 1",
+			"dealerCode": "0546D1",
+			"dealerType": "OWN",
+			"dealerDetail": [
+				{
+					"id": 1,
+					"no": 1,
+					"contactStartDate": "15.06.2021",
+					"contactEndDate": "17.06.2022",
+					"muncipilatyExpiryDate": "17.06.2022",
+					"registeredDate": "14.06.2021",
+					"isPreferPartner": "Yes",
+					"areaId": "452",
+					"dsId": "1111",
+					"createUserId": "6794",
+					"createdBy": "admin",
+					"status": "Active",
+					"distributorId": "1123123"
+				}
+			],
+			"contacts": [
+				{
+					"id": 1,
+					"contactName": "Ali",
+					"contactSurname": "Şahin",
+					"contactRole": "CEO",
+					"contactType": "Mobile Phone",
+					"contactInfo": "543112313"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"no": 2,
+			"dealerName": "Dealer 2",
+			"dealerCode": "0546D2",
+			"dealerType": "OWN",
+			"dealerDetail": [
+				{
+					"id": 2,
+					"no": 2,
+					"contactStartDate": "15.06.2019",
+					"contactEndDate": "11.03.2022",
+					"muncipilatyExpiryDate": "17.06.2022",
+					"registeredDate": "14.06.2019",
+					"isPreferPartner": "Yes",
+					"areaId": "453",
+					"dsId": "1112",
+					"createUserId": "8043",
+					"createdBy": "admin",
+					"status": "Active",
+					"distributorId": "2234098"
+				}
+			],
+			"contacts": [
+				{
+					"id": 2,
+					"contactName": "Kerem",
+					"contactSurname": "Alem",
+					"contactRole": "Yönetici",
+					"contactType": "Email",
+					"contactInfo": "mail@mail.com"
+				}
+			]
+		},
+		{
+			"id": 3,
+			"no": 3,
+			"dealerName": "Dealer 3",
+			"dealerCode": "0546D3",
+			"dealerType": "OWN",
+			"dealerDetail": [
+				{
+					"id": 3,
+					"no": 3,
+					"contactStartDate": "01.01.2021",
+					"contactEndDate": "01.06.2022",
+					"muncipilatyExpiryDate": "07.06.2022",
+					"registeredDate": "14.12.2020",
+					"isPreferPartner": "No",
+					"areaId": "454",
+					"dsId": "1113",
+					"createUserId": "6411",
+					"createdBy": "admin",
+					"status": "Passive",
+					"distributorId": "3345567"
+				}
+			],
+			"contacts": [
+				{
+					"id": 3,
+					"contactName": "Sadi",
+					"contactSurname": "Kapı",
+					"contactRole": "Yazılım Geliştirme Uzmanı",
+					"contactType": "Instagram",
+					"contactInfo": "@dev"
+				}
+			]
+		}
+	],
+	"events": [
+		{
+			"id": 1,
+			"name": "Event 1"
+		},
+		{
+			"id": 2,
+			"name": "Event 2"
+		},
+		{
+			"id": 3,
+			"name": "Event 3"
+		}
+	],
+	"operations": [
+		{
+			"id": 1,
+			"name": "Operation 1"
+		},
+		{
+			"id": 2,
+			"name": "Operation 2"
+		},
+		{
+			"id": 3,
+			"name": "Operation 3"
+		}
+	],
+	"products": [
+		{
+			"id": 1,
+			"name": "product 1"
+		},
+		{
+			"id": 2,
+			"name": "product 2"
+		},
+		{
+			"id": 3,
+			"name": "product 3"
+		}
+	],
+	"organization-unit": [
+		{
+			"id": 1,
+			"name": "organization unit 1"
+		},
+		{
+			"id": 2,
+			"name": "organization unit 2"
+		},
+		{
+			"id": 3,
+			"name": "organization unit 3"
+		}
+	],
+	"quantity-types": [
+		{
+			"id": 1,
+			"name": "Number"
+		},
+		{
+			"id": 2,
+			"name": "currency (TL)"
+		},
+		{
+			"id": 3,
+			"name": "quantity Type 3"
+		}
+	],
+	"employee-targets": [
+		{
+			"id": 1,
+			"employee": {
+				"name": "Lorem2",
+				"id": 1
+			},
+			"event": {
+				"name": "Event 1",
+				"id": 1
+			},
+			"product": {
+				"name": "product 1",
+				"id": 1
+			},
+			"quantity": 5,
+			"quantity_type": {
+				"name": "Number",
+				"id": 1
+			},
+			"calculation_period": {
+				"name": "Monthly",
+				"id": 1
+			},
+			"calculation_start_date": {
+				"name": "First day of the month",
+				"id": 1
+			},
+			"calculation_end_date": {
+				"name": "Last day of the quarter",
+				"id": 2
+			},
+			"status": 2
+		},
+		{
+			"id": 3,
+			"employee": {
+				"name": "Ann",
+				"id": 3
+			},
+			"event": {
+				"name": "Event 2",
+				"id": 2
+			},
+			"product": {
+				"name": "product 3",
+				"id": 3
+			},
+			"quantity": -11,
+			"quantity_type": {
+				"name": "quantity Type 3",
+				"id": 3
+			},
+			"calculation_period": {
+				"name": "Yearly",
+				"id": 3
+			},
+			"calculation_start_date": {
+				"name": "First day of the year",
+				"id": 3
+			},
+			"calculation_end_date": {
+				"name": "Last day of the year",
+				"id": 3
+			},
+			"status": 2
+		}
+	],
+	"dealer-targets": [
+		{
+			"id": 1,
+			"dealer": {
+				"name": "Lorem2",
+				"id": 1
+			},
+			"event": {
+				"name": "Event 1",
+				"id": 1
+			},
+			"product": {
+				"name": "product 1",
+				"id": 1
+			},
+			"quantity": 5,
+			"quantity_type": {
+				"name": "Number",
+				"id": 1
+			},
+			"calculation_period": {
+				"name": "Monthly",
+				"id": 1
+			},
+			"calculation_start_date": {
+				"name": "First day of the month",
+				"id": 1
+			},
+			"calculation_end_date": {
+				"name": "Last day of the quarter",
+				"id": 2
+			},
+			"status": 2
+		},
+		{
+			"id": 3,
+			"dealer": {
+				"name": "Ann",
+				"id": 3
+			},
+			"event": {
+				"name": "Event 2",
+				"id": 2
+			},
+			"product": {
+				"name": "product 3",
+				"id": 3
+			},
+			"quantity": -11,
+			"quantity_type": {
+				"name": "quantity Type 3",
+				"id": 3
+			},
+			"calculation_period": {
+				"name": "Yearly",
+				"id": 3
+			},
+			"calculation_start_date": {
+				"name": "First day of the year",
+				"id": 3
+			},
+			"calculation_end_date": {
+				"name": "Last day of the year",
+				"id": 3
+			},
+			"status": 2
+		}
+	],
+	"organization-unit-targets": [
+		{
+			"id": 1,
+			"organization_unit": {
+				"name": "Lorem2",
+				"id": 1
+			},
+			"operation": {
+				"name": "operation 1",
+				"id": 1
+			},
+			"event": {
+				"name": "event 1",
+				"id": 1
+			},
+			"product": {
+				"name": "product 1",
+				"id": 1
+			},
+			"quantity": 5,
+			"quantity_type": {
+				"name": "Number",
+				"id": 1
+			},
+			"calculation_period": {
+				"name": "Monthly",
+				"id": 1
+			},
+			"calculation_start_date": {
+				"name": "First day of the month",
+				"id": 1
+			},
+			"calculation_end_date": {
+				"name": "Last day of the quarter",
+				"id": 2
+			},
+			"status": 2
+		},
+		{
+			"id": 3,
+			"organization_unit": {
+				"name": "Ann",
+				"id": 3
+			},
+			"operation": {
+				"name": "operation 2",
+				"id": 2
+			},
+			"event": {
+				"name": "event 1",
+				"id": 1
+			},
+			"product": {
+				"name": "product 3",
+				"id": 3
+			},
+			"quantity": -11,
+			"quantity_type": {
+				"name": "quantity Type 3",
+				"id": 3
+			},
+			"calculation_period": {
+				"name": "Yearly",
+				"id": 3
+			},
+			"calculation_start_date": {
+				"name": "First day of the year",
+				"id": 3
+			},
+			"calculation_end_date": {
+				"name": "Last day of the year",
+				"id": 3
+			},
+			"status": 2
+		}
+	],
+	"events_commission": [
+		{
+			"id": 1,
+			"event_name": 1,
+			"sale_channel": 1,
+			"is_commissionable": 2,
+			"effective_start_date": "2022/07/21",
+			"end_date": "2022/07/21",
+			"status": 3,
+			"version": "v2",
+			"last_modified_date": "2022/07/21",
+			"confirmation": 1
+		},
+		{
+			"id": 2,
+			"event_name": 2,
+			"sale_channel": 2,
+			"is_commissionable": 1,
+			"effective_start_date": "2022/7/21",
+			"end_date": "2022/7/21",
+			"status": 4,
+			"version": "v1",
+			"last_modified_date": "2022/7/21",
+			"confirmation": 1
+		}
+	],
+	"comission_plans": [
+		{
+			"id": 1,
+			"name": "Prepaid Line Sale Comission"
+		},
+		{
+			"id": 2,
+			"name": "Postpaid Line Sale Comission"
+		}
+	],
+	"party_types": [
+		{
+			"id": 1,
+			"name": "Employee"
+		},
+		{
+			"id": 2,
+			"name": "Dealer"
+		}
+	],
+	"employee_commission": [
+		{
+			"id": 1,
+			"employee_position": 3,
+			"sale_channel": 2,
+			"is_commissionable": 1,
+			"effective_start_date": "2022/07/21",
+			"end_date": "2022/07/21",
+			"status": 1,
+			"version": "v2",
+			"last_modified_date": "2022/07/21",
+			"confirmation": 1
+		},
+		{
+			"id": 2,
+			"employee_position": 3,
+			"sale_channel": 3,
+			"is_commissionable": "2022/07/21",
+			"effective_start_date": "2022/07/21",
+			"end_date": "2022/07/21",
+			"status": 2,
+			"version": "v3",
+			"last_modified_date": "2022/07/21",
+			"confirmation": 1
+		}
+	],
+	"dealer_commission": [
+		{
+			"id": 1,
+			"dealer_name": 1,
+			"sale_channel": 2,
+			"is_commissionable": 1,
+			"effective_start_date": "2022/07/21",
+			"end_date": "2022/07/21",
+			"status": 1,
+			"region": 1,
+			"wilayat": 2,
+			"version": "v2",
+			"last_modified_date": "2022/07/21",
+			"confirmation": 1
+		},
+		{
+			"id": 2,
+			"dealer_name": 2,
+			"sale_channel": 3,
+			"is_commissionable": "2022/07/21",
+			"effective_start_date": "2022/07/21",
+			"end_date": "2022/07/21",
+			"status": 2,
+			"region": 2,
+			"wilayat": 3,
+			"version": "v1",
+			"last_modified_date": "2022/07/21",
+			"confirmation": 1
+		}
+	],
+	"sale_channel": [
+		{
+			"id": 1,
+			"name": "Direct Sales"
+		},
+		{
+			"id": 2,
+			"name": "Dealers"
+		},
+		{
+			"id": 3,
+			"name": "DSA"
+		},
+		{
+			"id": 4,
+			"name": "SSchamp"
+		},
+		{
+			"id": 5,
+			"name": "DSF"
+		},
+		{
+			"id": 6,
+			"name": "OM"
+		},
+		{
+			"id": 6,
+			"name": "Recharge Oman"
+		}
+	],
+	"employee_position": [
+		{
+			"id": 1,
+			"name": "Sale Champion"
+		},
+		{
+			"id": 2,
+			"name": "Assistant Store Manager"
+		},
+		{
+			"id": 3,
+			"name": "Store Manager"
+		},
+		{
+			"id": 4,
+			"name": "Regional Manager"
+		},
+		{
+			"id": 5,
+			"name": "Director"
+		},
+		{
+			"id": 6,
+			"name": "CCO"
+		}
+	],
+	"region": [
+		{
+			"id": 10,
+			"name": "AL BATINAH SOUTH"
+		},
+		{
+			"id": 11,
+			"name": "ASH SHARQIYAH NORTH"
+		},
+		{
+			"id": 1,
+			"name": "MUSCAT"
+		},
+		{
+			"id": 2,
+			"name": "AL BATINAH NORTH"
+		},
+		{
+			"id": 3,
+			"name": "MUSANDAM"
+		},
+		{
+			"id": 4,
+			"name": "ADH DHAHIRAH"
+		},
+		{
+			"id": 5,
+			"name": "AD DAKHLIYAH"
+		},
+		{
+			"id": 6,
+			"name": "ASH SHARQIYAH SOUTH"
+		},
+		{
+			"id": 7,
+			"name": "AL WUSTA"
+		},
+		{
+			"id": 8,
+			"name": "DHOFAR"
+		},
+		{
+			"id": 9,
+			"name": "AL BURAYMI"
+		}
+	],
+	"wilaya": [
+		{
+			"region_id": 8,
+			"wilaya_id": 62,
+			"name": "AL MAZYUNAH"
+		},
+		{
+			"region_id": 1,
+			"wilaya_id": 1,
+			"name": "MUTRAH"
+		},
+		{
+			"region_id": 1,
+			"wilaya_id": 2,
+			"name": "BAWSHAR"
+		},
+		{
+			"region_id": 1,
+			"wilaya_id": 3,
+			"name": "AS SEEB"
+		},
+		{
+			"region_id": 1,
+			"wilaya_id": 4,
+			"name": "AL AMRAT"
+		},
+		{
+			"region_id": 1,
+			"wilaya_id": 5,
+			"name": "MUSCAT"
+		},
+		{
+			"region_id": 1,
+			"wilaya_id": 6,
+			"name": "QURAYYAT"
+		},
+		{
+			"region_id": 2,
+			"wilaya_id": 7,
+			"name": "SOHAR"
+		},
+		{
+			"region_id": 2,
+			"wilaya_id": 8,
+			"name": "SHINAS"
+		},
+		{
+			"region_id": 2,
+			"wilaya_id": 9,
+			"name": "LIWA"
+		},
+		{
+			"region_id": 2,
+			"wilaya_id": 10,
+			"name": "AL KHABURAH"
+		},
+		{
+			"region_id": 2,
+			"wilaya_id": 11,
+			"name": "AS SUWAYQ"
+		},
+		{
+			"region_id": 10,
+			"wilaya_id": 12,
+			"name": "NAKHAL"
+		},
+		{
+			"region_id": 10,
+			"wilaya_id": 13,
+			"name": "WADI AL MAAWIL"
+		},
+		{
+			"region_id": 10,
+			"wilaya_id": 14,
+			"name": "AL AWABI"
+		},
+		{
+			"region_id": 10,
+			"wilaya_id": 15,
+			"name": "AL MUSANAAH"
+		},
+		{
+			"region_id": 10,
+			"wilaya_id": 16,
+			"name": "BARKA"
+		},
+		{
+			"region_id": 10,
+			"wilaya_id": 17,
+			"name": "AR RUSTAQ"
+		},
+		{
+			"region_id": 2,
+			"wilaya_id": 18,
+			"name": "SAHAM"
+		},
+		{
+			"region_id": 3,
+			"wilaya_id": 19,
+			"name": "KHASAB"
+		},
+		{
+			"region_id": 3,
+			"wilaya_id": 20,
+			"name": "BUKHA"
+		},
+		{
+			"region_id": 3,
+			"wilaya_id": 21,
+			"name": "DABA"
+		},
+		{
+			"region_id": 3,
+			"wilaya_id": 22,
+			"name": "MADHA"
+		},
+		{
+			"region_id": 9,
+			"wilaya_id": 23,
+			"name": "AL BURAYMI"
+		},
+		{
+			"region_id": 4,
+			"wilaya_id": 24,
+			"name": "IBRI"
+		},
+		{
+			"region_id": 9,
+			"wilaya_id": 25,
+			"name": "MAHADAH"
+		},
+		{
+			"region_id": 4,
+			"wilaya_id": 26,
+			"name": "YANQUL"
+		},
+		{
+			"region_id": 4,
+			"wilaya_id": 27,
+			"name": "DANK"
+		},
+		{
+			"region_id": 5,
+			"wilaya_id": 28,
+			"name": "NIZWA"
+		},
+		{
+			"region_id": 5,
+			"wilaya_id": 29,
+			"name": "SAMAIL"
+		},
+		{
+			"region_id": 5,
+			"wilaya_id": 30,
+			"name": "BAHLA"
+		},
+		{
+			"region_id": 5,
+			"wilaya_id": 31,
+			"name": "ADAM"
+		},
+		{
+			"region_id": 5,
+			"wilaya_id": 32,
+			"name": "AL HAMRA"
+		},
+		{
+			"region_id": 5,
+			"wilaya_id": 33,
+			"name": "MANAH"
+		},
+		{
+			"region_id": 5,
+			"wilaya_id": 34,
+			"name": "IZKI"
+		},
+		{
+			"region_id": 5,
+			"wilaya_id": 35,
+			"name": "BIDBID"
+		},
+		{
+			"region_id": 6,
+			"wilaya_id": 36,
+			"name": "SUR"
+		},
+		{
+			"region_id": 11,
+			"wilaya_id": 37,
+			"name": "IBRA"
+		},
+		{
+			"region_id": 11,
+			"wilaya_id": 38,
+			"name": "BIDIYAH"
+		},
+		{
+			"region_id": 11,
+			"wilaya_id": 39,
+			"name": "AL QABIL"
+		},
+		{
+			"region_id": 11,
+			"wilaya_id": 40,
+			"name": "AL MUDAYBI"
+		},
+		{
+			"region_id": 11,
+			"wilaya_id": 41,
+			"name": "DAMA WA AT TAIYIN"
+		},
+		{
+			"region_id": 6,
+			"wilaya_id": 42,
+			"name": "AL KAMIL WA AL WAFI"
+		},
+		{
+			"region_id": 6,
+			"wilaya_id": 43,
+			"name": "JAALAN BANI BU ALI"
+		},
+		{
+			"region_id": 6,
+			"wilaya_id": 44,
+			"name": "JAALAN BANI BU HASAN"
+		},
+		{
+			"region_id": 11,
+			"wilaya_id": 45,
+			"name": "WADI BANI KHALID"
+		},
+		{
+			"region_id": 6,
+			"wilaya_id": 46,
+			"name": "MASIRAH"
+		},
+		{
+			"region_id": 7,
+			"wilaya_id": 47,
+			"name": "HAYMA"
+		},
+		{
+			"region_id": 7,
+			"wilaya_id": 48,
+			"name": "MAHAWT"
+		},
+		{
+			"region_id": 7,
+			"wilaya_id": 49,
+			"name": "AD DUQM"
+		},
+		{
+			"region_id": 7,
+			"wilaya_id": 50,
+			"name": "AL JAZIR"
+		},
+		{
+			"region_id": 8,
+			"wilaya_id": 51,
+			"name": "SALALAH"
+		},
+		{
+			"region_id": 8,
+			"wilaya_id": 52,
+			"name": "THUMRAYT"
+		},
+		{
+			"region_id": 8,
+			"wilaya_id": 53,
+			"name": "TAQAH"
+		},
+		{
+			"region_id": 8,
+			"wilaya_id": 54,
+			"name": "MIRBAT"
+		},
+		{
+			"region_id": 8,
+			"wilaya_id": 55,
+			"name": "SADAH"
+		},
+		{
+			"region_id": 8,
+			"wilaya_id": 56,
+			"name": "RAKHYUT"
+		},
+		{
+			"region_id": 8,
+			"wilaya_id": 57,
+			"name": "MUQSHIN"
+		},
+		{
+			"region_id": 8,
+			"wilaya_id": 58,
+			"name": "DALKUT"
+		},
+		{
+			"region_id": 8,
+			"wilaya_id": 59,
+			"name": "SHALIM WA JUZOR AL HALLANIYAT"
+		},
+		{
+			"region_id": 9,
+			"wilaya_id": 61,
+			"name": "AS SUNAYNAH"
+		}
+	]
 }
