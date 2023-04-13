@@ -1595,5 +1595,57 @@
 			"wilaya_id": 61,
 			"name": "AS SUNAYNAH"
 		}
+	],
+	"roles_employee_commission": [
+		{
+			"id": 1,
+			"dealerCode": 2,
+			"customerMsisdn": 431224562,
+			"planName": 1,
+			"payoutAmount": "2022/07/21",
+			"payoutTimes": "2022/07/21",
+			"paymentStatus": 1,
+			"failureReason": "v1",
+			"reqionName": "2022/07/21",
+			"wilaya": 1,
+			"additionalPayoutAmount": 0,
+			"SimCardNumber": 1355215,
+			"DistributerName": "Rayn D",
+			"detail": [
+				{
+					"id": 1,
+					"title": "Marketing Director",
+					"job_desc": "B2C marketing management with 45 staff",
+					"start_date": "15.06.2021",
+					"end_date": "17.06.2021",
+					"company_name": "ABC Company"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"dealerCode": 2,
+			"customerMsisdn": 431224563,
+			"planName": 2,
+			"payoutAmount": "2023/07/21",
+			"payoutTimes": "2023/07/21",
+			"paymentStatus": 2,
+			"failureReason": "v2",
+			"reqionName": "2023/11/11",
+			"wilaya": 1,
+			"additionalPayoutAmount": 0,
+			"SimCardNumber": 1355216,
+			"DistributerName": "Marry E",
+			"detail": [
+				{
+					"id": 1,
+					"title": "Marketing Director",
+					"job_desc": "B2C marketing management with 45 staff",
+					"start_date": "15.06.2021",
+					"end_date": "17.06.2021",
+					"company_name": "ABC Company"
+				}
+			]
+		}
 	]
 }
