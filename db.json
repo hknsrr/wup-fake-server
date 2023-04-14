@@ -79,6 +79,35 @@
 			"confirmation": 2
 		}
 	],
+	"commission-planning": [
+		{
+			"id": 1,
+			"plan_name": "Prepaid line sale commission",
+			"effective_start_date": "2022/7/21",
+			"end_date": "2022/7/21",
+			"status": 1,
+			"version": "v2",
+			"last_modified_date": "2022/7/21",
+		},
+		{
+			"id": 2,
+			"plan_name": "Postpaid line sale commission",
+			"effective_start_date": "2022/7/21",
+			"end_date": "2022/7/21",
+			"status": 1,
+			"version": "v6",
+			"last_modified_date": "2022/7/21",
+		},
+		{
+			"id": 3,
+			"plan_name": "Door to door sale commission",
+			"effective_start_date": "2022/7/21",
+			"end_date": "2022/7/21",
+			"status": 1,
+			"version": "v10",
+			"last_modified_date": "2022/7/21",
+		},
+	],
 	"commission-scenarios": [
 		{
 			"id": 1,
