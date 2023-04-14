@@ -87,7 +87,7 @@
 			"end_date": "2022/7/21",
 			"status": 1,
 			"version": "v2",
-			"last_modified_date": "2022/7/21",
+			"last_modified_date": "2022/7/21"
 		},
 		{
 			"id": 2,
@@ -96,7 +96,7 @@
 			"end_date": "2022/7/21",
 			"status": 1,
 			"version": "v6",
-			"last_modified_date": "2022/7/21",
+			"last_modified_date": "2022/7/21"
 		},
 		{
 			"id": 3,
@@ -105,8 +105,8 @@
 			"end_date": "2022/7/21",
 			"status": 1,
 			"version": "v10",
-			"last_modified_date": "2022/7/21",
-		},
+			"last_modified_date": "2022/7/21"
+		}
 	],
 	"commission-scenarios": [
 		{
