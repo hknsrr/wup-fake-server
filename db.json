@@ -85,7 +85,7 @@
 			"plan_name": "Prepaid line sale commission",
 			"effective_start_date": "2022/7/21",
 			"end_date": "2022/7/21",
-			"status": 1,
+			"status": "Active",
 			"version": "v2",
 			"last_modified_date": "2022/7/21"
 		},
@@ -94,7 +94,7 @@
 			"plan_name": "Postpaid line sale commission",
 			"effective_start_date": "2022/7/21",
 			"end_date": "2022/7/21",
-			"status": 1,
+			"status": "Closed",
 			"version": "v6",
 			"last_modified_date": "2022/7/21"
 		},
@@ -103,7 +103,7 @@
 			"plan_name": "Door to door sale commission",
 			"effective_start_date": "2022/7/21",
 			"end_date": "2022/7/21",
-			"status": 1,
+			"status": "Active",
 			"version": "v10",
 			"last_modified_date": "2022/7/21"
 		}
