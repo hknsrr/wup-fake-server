@@ -761,6 +761,94 @@
 					"contactType": "Mobile Phone",
 					"contactInfo": "543112313"
 				}
+			],
+			"targets": [
+				{
+					"id": 1,
+					"TargetN": "Dealer Sale Target",
+					"EventN": "Sale",
+					"ProductN": "Iphone 14",
+					"Quantity": "12",
+					"QuantityType": "Number",
+					"TargetRealization": "19",
+					"TargetRealPersantange": "%46",
+					"TargetsDate": "15.07.2021",
+					"TargeteDate": "15.07.2023"
+				},
+				{
+					"id": 2,
+					"TargetN": "Dealer Sale Target",
+					"EventN": "Sale",
+					"ProductN": "SIM Card",
+					"Quantity": "1200",
+					"QuantityType": "Number",
+					"TargetRealization": "954",
+					"TargetRealPersantange": "%68",
+					"TargetsDate": "05.07.2023",
+					"TargeteDate": "12.10.2023"
+				},
+				{
+					"id": 3,
+					"TargetN": "Dealer Target3",
+					"EventN": "Recharge",
+					"ProductN": "Money",
+					"Quantity": "5000",
+					"QuantityType": "Currency(TL)",
+					"TargetRealization": "3247",
+					"TargetRealPersantange": "%64",
+					"TargetsDate": "02.10.2023",
+					"TargeteDate": "07.12.2023"
+				}
+			],
+			"sales": [
+				{
+					"id": 1,
+					"eventName": "Dealer Sale",
+					"msisdn": "991283456",
+					"planName": "RO 2 Credit",
+					"payoutAmount": "5",
+					"currency": "OMR",
+					"region": "Muscat",
+					"wilayat": "Mattrah",
+					"additionalPayoutAmount": "0",
+					"payoutTime": "9.06.2022 12:56",
+					"paymentStatus": "Success",
+					"payload": "Credit",
+					"saleChannel": "Direct Sales",
+					"activationDate": "05.03.2023"
+				},
+				{
+					"id": 2,
+					"eventName": "Dealer Sale",
+					"msisdn": "991283457",
+					"planName": "RO 2 Credit",
+					"payoutAmount": "1",
+					"currency": "OMR",
+					"region": "Muscat",
+					"wilayat": "Mattrah",
+					"additionalPayoutAmount": "0",
+					"payoutTime": "9.12.2023 11:26",
+					"paymentStatus": "Success",
+					"payload": "Credit",
+					"saleChannel": "Door to Door",
+					"activationDate": "12.04.2023"
+				},
+				{
+					"id": 3,
+					"eventName": "Dealer Sale",
+					"msisdn": "991283458",
+					"planName": "Halo Internet OMR 3",
+					"payoutAmount": "2",
+					"currency": "OMR",
+					"region": "Muscat",
+					"wilayat": "Al Amirat",
+					"additionalPayoutAmount": "0",
+					"payoutTime": "10.06.2022 14:56",
+					"paymentStatus": "Success",
+					"payload": "Credit",
+					"saleChannel": "Distributers",
+					"activationDate": "21.08.2023"
+				}
 			]
 		},
 		{
@@ -795,6 +883,94 @@
 					"contactType": "Email",
 					"contactInfo": "mail@mail.com"
 				}
+			],
+			"targets": [
+				{
+					"id": 1,
+					"TargetN": "Dealer Sale Target",
+					"EventN": "Sale",
+					"ProductN": "Iphone 14",
+					"Quantity": "12",
+					"QuantityType": "Number",
+					"TargetRealization": "9",
+					"TargetRealPersantange": "%66",
+					"TargetsDate": "15.06.2021",
+					"TargeteDate": "15.06.2023"
+				},
+				{
+					"id": 2,
+					"TargetN": "Dealer Sale Target",
+					"EventN": "Sale",
+					"ProductN": "SIM Card",
+					"Quantity": "1400",
+					"QuantityType": "Number",
+					"TargetRealization": "956",
+					"TargetRealPersantange": "%68",
+					"TargetsDate": "05.07.2023",
+					"TargeteDate": "12.10.2023"
+				},
+				{
+					"id": 3,
+					"TargetN": "Dealer Target3",
+					"EventN": "Recharge",
+					"ProductN": "Money",
+					"Quantity": "5000",
+					"QuantityType": "Currency(TL)",
+					"TargetRealization": "3247",
+					"TargetRealPersantange": "%64",
+					"TargetsDate": "02.10.2023",
+					"TargeteDate": "07.12.2023"
+				}
+			],
+			"sales": [
+				{
+					"id": 1,
+					"eventName": "Dealer Sale",
+					"msisdn": "991283456",
+					"planName": "RO 2 Credit",
+					"payoutAmount": "5",
+					"currency": "OMR",
+					"region": "Muscat",
+					"wilayat": "Mattrah",
+					"additionalPayoutAmount": "0",
+					"payoutTime": "9.06.2022 12:56",
+					"paymentStatus": "Success",
+					"payload": "Credit",
+					"saleChannel": "Direct Sales",
+					"activationDate": "05.03.2023"
+				},
+				{
+					"id": 2,
+					"eventName": "Dealer Sale",
+					"msisdn": "991283457",
+					"planName": "RO 2 Credit",
+					"payoutAmount": "1",
+					"currency": "OMR",
+					"region": "Muscat",
+					"wilayat": "Mattrah",
+					"additionalPayoutAmount": "0",
+					"payoutTime": "9.12.2023 11:26",
+					"paymentStatus": "Success",
+					"payload": "Credit",
+					"saleChannel": "Door to Door",
+					"activationDate": "12.04.2023"
+				},
+				{
+					"id": 3,
+					"eventName": "Dealer Sale",
+					"msisdn": "991283458",
+					"planName": "Halo Internet OMR 3",
+					"payoutAmount": "2",
+					"currency": "OMR",
+					"region": "Muscat",
+					"wilayat": "Al Amirat",
+					"additionalPayoutAmount": "0",
+					"payoutTime": "10.06.2022 14:56",
+					"paymentStatus": "Success",
+					"payload": "Credit",
+					"saleChannel": "Distributers",
+					"activationDate": "21.08.2023"
+				}
 			]
 		},
 		{
@@ -828,6 +1004,94 @@
 					"contactRole": "Yazılım Geliştirme Uzmanı",
 					"contactType": "Instagram",
 					"contactInfo": "@dev"
+				}
+			],
+			"targets": [
+				{
+					"id": 1,
+					"TargetN": "Dealer Sale Target",
+					"EventN": "Sale",
+					"ProductN": "Iphone 14",
+					"Quantity": "12",
+					"QuantityType": "Number",
+					"TargetRealization": "9",
+					"TargetRealPersantange": "%66",
+					"TargetsDate": "15.06.2021",
+					"TargeteDate": "15.06.2023"
+				},
+				{
+					"id": 2,
+					"TargetN": "Dealer Sale Target",
+					"EventN": "Sale",
+					"ProductN": "SIM Card",
+					"Quantity": "1400",
+					"QuantityType": "Number",
+					"TargetRealization": "956",
+					"TargetRealPersantange": "%68",
+					"TargetsDate": "05.07.2023",
+					"TargeteDate": "12.10.2023"
+				},
+				{
+					"id": 3,
+					"TargetN": "Dealer Target3",
+					"EventN": "Recharge",
+					"ProductN": "Money",
+					"Quantity": "5000",
+					"QuantityType": "Currency(TL)",
+					"TargetRealization": "3247",
+					"TargetRealPersantange": "%64",
+					"TargetsDate": "02.10.2023",
+					"TargeteDate": "07.12.2023"
+				}
+			],
+			"sales": [
+				{
+					"id": 1,
+					"eventName": "Dealer Sale",
+					"msisdn": "991283456",
+					"planName": "RO 2 Credit",
+					"payoutAmount": "5",
+					"currency": "OMR",
+					"region": "Muscat",
+					"wilayat": "Mattrah",
+					"additionalPayoutAmount": "0",
+					"payoutTime": "9.06.2022 12:56",
+					"paymentStatus": "Success",
+					"payload": "Credit",
+					"saleChannel": "Direct Sales",
+					"activationDate": "05.03.2023"
+				},
+				{
+					"id": 2,
+					"eventName": "Dealer Sale",
+					"msisdn": "991283457",
+					"planName": "RO 2 Credit",
+					"payoutAmount": "1",
+					"currency": "OMR",
+					"region": "Muscat",
+					"wilayat": "Mattrah",
+					"additionalPayoutAmount": "0",
+					"payoutTime": "9.12.2023 11:26",
+					"paymentStatus": "Success",
+					"payload": "Credit",
+					"saleChannel": "Door to Door",
+					"activationDate": "12.04.2023"
+				},
+				{
+					"id": 3,
+					"eventName": "Dealer Sale",
+					"msisdn": "991283458",
+					"planName": "Halo Internet OMR 3",
+					"payoutAmount": "2",
+					"currency": "OMR",
+					"region": "Muscat",
+					"wilayat": "Al Amirat",
+					"additionalPayoutAmount": "0",
+					"payoutTime": "10.06.2022 14:56",
+					"paymentStatus": "Success",
+					"payload": "Credit",
+					"saleChannel": "Distributers",
+					"activationDate": "21.08.2023"
 				}
 			]
 		}
