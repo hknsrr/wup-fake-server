@@ -1992,5 +1992,29 @@
 				}
 			]
 		}
+	],
+	"commission-simulations_current_Month": [
+		{
+			"id": 1,
+			"scenario": "Scenario 1",
+			"scenario_name": "Current Month Commission Calculation for Dealer",
+			"operation": "2023/8/21",
+			"status": "Finish",
+			"commission_report": "Report1",
+			"simulation_start": "2022/8/22",
+			"simulation_end": "2022/8/22",
+			"confirmation": 1
+		},
+		{
+			"id": 2,
+			"scenario": "Scenario 2",
+			"scenario_name": "Current Month Commission Calculation for Dealer",
+			"operation": "2022/12/01",
+			"status": "Finish",
+			"commission_report": "Report2",
+			"simulation_start": "2022/12/02",
+			"simulation_end": "2022/12/02",
+			"confirmation": 2
+		}
 	]
 }
