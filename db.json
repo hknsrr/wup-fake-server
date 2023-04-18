@@ -2016,5 +2016,29 @@
 			"simulation_end": "2022/12/02",
 			"confirmation": 2
 		}
+	],
+	"commission_simulations_past_month": [
+		{
+			"id": 1,
+			"scenario": "Scenario 1",
+			"scenario_name": "Past Month Commission Calculation",
+			"operation": "2020/12/21",
+			"status": "Finish",
+			"commission_report": "Report1",
+			"simulation_start": "2021/10/22",
+			"simulation_end": "2021/10/22",
+			"confirmation": 1
+		},
+		{
+			"id": 2,
+			"scenario": "Scenario 2",
+			"scenario_name": "Past Month Commission Calculation",
+			"operation": "2022/11/13",
+			"status": "Finish",
+			"commission_report": "Report2",
+			"simulation_start": "2023/10/01",
+			"simulation_end": "2023/10/01",
+			"confirmation": 2
+		}
 	]
 }
