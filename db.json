@@ -696,6 +696,26 @@
 					"text": "The sale of phones is a very important factor for us to keep the commission to the destination.",
 					"date": "15.06.2021"
 				}
+			],
+			"payments": [
+				{
+					"id": 1,
+					"name": "1st Payment",
+					"desc": "Payment Document",
+					"date": "15.07.2021",
+					"city": "İstanbul",
+					"country": "Türkiye"
+				}
+			],
+			"invoices": [
+				{
+					"id": 1,
+					"name": "1st invoice",
+					"desc": "invoice Document",
+					"date": "15.07.2021",
+					"city": "İstanbul",
+					"country": "Türkiye"
+				}
 			]
 		}
 	],
